@@ -5,10 +5,10 @@ services:
     image: ghcr.io/missemily2022/clonebot:new
     container_name:TGVid-Comp
     environment:
-      - APP_ID=${APP_ID , 16217296 }
-      - API_HASH=${API_HASH , "633011a144de07ff831e25d2f84c4305" }
-      - OWNER=${OWNER, "2096629786" ,  "5104740868"}
-      - BOT_TOKEN=${BOT_TOKEN , "5153102978:AAGz9LPe8214gKrUEcZLARyRlAtJ7THb974"}
+      - APP_ID=${APP_ID}
+      - API_HASH=${API_HASH}
+      - OWNER=${OWNER}
+      - BOT_TOKEN=${BOT_TOKEN}
     ports:
-      - ${PORT}:${PORT , 8080 }
+      - ${PORT}:${PORT}
     restart: unless-stopped
