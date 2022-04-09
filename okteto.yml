@@ -3,4 +3,3 @@ environment:
   - API_HASH=${API_HASH}
   - OWNER=${OWNER}
   - BOT_TOKEN=${BOT_TOKEN}
-okteto push : --deploy
