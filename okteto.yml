@@ -2,8 +2,6 @@
 
 services:
   TGVid-Comp
-    image: ghcr.io/missemily2022/clonebot:new
-    container_name:TGVid-Comp
     environment:
       - APP_ID=${APP_ID}
       - API_HASH=${API_HASH}
