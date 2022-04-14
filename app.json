@@ -9,24 +9,23 @@
     "env": {
         "APP_ID": {
             "description": "You api id get it from my.telegram.org or @apiScrapperRoBot",
-            "value": "16217296"
+            "value": ""
         },
         "API_HASH": {
             "description": "You api hash get it from my.telegram.org or @apiScrapperRoBot.",
-            "value": "633011a144de07ff831e25d2f84c4305"
+            "value": ""
         },
         "BOT_TOKEN": {
             "description": "Make a bot from @BotFather and enter it's api token",
-            "value": "5153102978:AAGz9LPe8214gKrUEcZLARyRlAtJ7THb974"
+            "value": ""
         },
         "OWNER": {
             "description": "Put ids of user which can access the bot e.g 123456789",
-            "value": "2096629786 5104740868"
+            "value": ""
         },
         "THUMBNAIL": {
-            "description": "Put Link of any picture.",
-            "value": "",
-            "required": false
+            "description": "Put Link of any picture. If you dont want to put the link of any picture then leave it but remember to send an image to bot before starting compressing otherwise you wont get the  video",
+            "value": "https://te.legra.ph/file/c5ffe53d0a2eaeb9f0bc2.jpg"
         }
     }
 }
