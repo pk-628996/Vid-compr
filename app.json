@@ -26,6 +26,7 @@
         "THUMBNAIL": {
             "description": "Put Link of any picture. If you dont want to put the link of any picture then leave it but remember to send an image to bot before starting compressing otherwise you wont get the  video",
             "value": "https://te.legra.ph/file/c5ffe53d0a2eaeb9f0bc2.jpg"
+            "required": false
         }
     }
 }
